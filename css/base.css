@@ -5,17 +5,32 @@
     box-sizing: border-box;
     -webkit-tap-highlight-color: transparent;
 }
-ul ol{
+ul,ol{
     list-style: none;
 }
 a{
     text-decoration: none;
 }
-.clearfix::after{
-    content:"";
+.clearfix:after {
+    content: '';
     display: block;
-    height: 0;
-    visibility: hidden;
-    line-height: 0;
     clear: both;
+    visibility: hidden;
+    height: 0;
+    line-height: 0;
+}
+textarea,input {
+    outline: none;
+    border: none;
+    -webkit-appearance: none;
+}
+[class^="icon-"]{
+    background: url("../images/home/nav/sprites.png") no-repeat;
+    background-size: 200px 200px;
+}
+img {
+    vertical-align: top;
+}
+body{
+    font-size: 12px;
 }

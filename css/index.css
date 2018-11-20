@@ -1,0 +1,367 @@
+.layout {
+    min-width: 320px;
+    max-width: 640px;;
+    margin: 0 auto;
+    background: #f5f5f5;
+    padding-bottom: 70px;
+}
+
+/*头部*/
+.jd-header {
+    width: 100%;
+    height: 40px;
+    background: rgba(201, 21, 35, 0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 998;
+}
+
+.jd-header .header-in {
+    margin: 0 auto;
+    min-width: 320px;
+    max-width: 640px;
+    height: 40px;
+    background-color: rgba(201, 21, 35, 0.8);
+    position: relative;
+}
+
+.jd-header .header-in .icon-logo {
+    width: 60px;
+    height: 30px;
+    background-position: 0 -103px;
+    position: absolute;
+    left: 10px;
+    top: 4px;
+}
+
+.jd-header .header-in form {
+    width: 100%;
+    height: 100%;
+    padding-left: 80px;
+    padding-right: 50px;
+}
+
+.jd-header .header-in .icon-search {
+    width: 20px;
+    height: 20px;
+    background-position: -60px -109px;
+    position: absolute;
+    left: 90px;
+    top: 10px;
+}
+
+.jd-header .header-in input {
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+    border-radius: 15px;
+    padding-left: 40px;
+}
+
+.jd-header .header-in .header-login {
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    color: white;
+}
+
+/*轮播图*/
+.banner {
+    width: 100%;
+    /*height: 100%;*/
+    position: relative;
+    overflow: hidden;
+}
+
+.banner ul {
+    width: 1000%;
+    transform: translateX(-10%);
+}
+
+.banner ul li {
+    width: 10%;
+    float: left;
+}
+
+.banner ul li a {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+
+.banner ul li img {
+    width: 100%;
+    height: 100%;
+}
+
+.banner ol {
+    width: 118px;
+    height: 6px;
+    position: absolute;
+    top: 170px;
+    margin-left: -59px;
+    left: 50%;
+}
+
+.banner ol li {
+    width: 6px;
+    height: 6px;
+    float: left;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    margin-left: 8px;
+}
+
+/*导航*/
+.jd-nav {
+    width: 100%;
+    background-color: #fff;
+}
+
+.jd-nav ul {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.jd-nav ul li {
+    width: 20%;
+    float: left;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.jd-nav ul li img {
+    width: 40px;
+}
+
+.jd-nav ul li p {
+    color: #666;
+    font-size: 14px;
+}
+
+/*产品*/
+.product {
+    width: 100%;
+    margin-top: 12px;
+}
+
+.product section {
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+
+section .product-title {
+    width: 100%;
+    height: 36px;
+    line-height: 36px;
+}
+
+.product-title .p-title-img {
+    width: 60px;
+    height: 24px;
+    margin-top: 6px;
+}
+
+.product-title .product-kill {
+    display: inline-block;
+}
+
+.product-title .product-kill span {
+    background: #000;
+    color: white;
+    padding: 0 2px;
+}
+
+.product-title .product-kill span:nth-child(3n) {
+    background: #fff;
+    color: #000;
+    padding: 0;
+}
+
+.product-title .p-more {
+    float: right;
+    position: relative;
+    margin-right: 25px;
+    color: brown;
+}
+
+.product-title .p-more::after {
+    content: '';
+    background: url("../images/home/product/arrow_rt.png");
+    background-size: 12px 12px;
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    right: -20px;
+    top: 6px;
+}
+
+.section .product-content {
+    width: 100%;
+}
+
+.product-content ul {
+    width: 100%;
+}
+
+.product-content ul li {
+    width: 33.333%;
+    float: left;
+    text-align: center;
+    background: white;
+}
+
+.product-content ul li a {
+    width: 100%;
+    height: 100%;
+}
+
+.product-content ul li img {
+    width: 100%;
+    height: 100%;
+    border-right: 1px solid #ccc;
+}
+
+.product-content ul li:nth-child(3) img {
+    border-right: none;
+}
+
+.product-content ul li .hot-price {
+    color: brown;
+    margin: 20px 0 10px 0;
+}
+
+.product-content ul li .old-price {
+    text-decoration: line-through;
+    margin-bottom: 10px;
+
+}
+.product-title h3{
+    position: relative;
+    margin-left: 15px;
+}
+.product-title h3:before{
+    content: '';
+    width: 2px;
+    height: 12px;
+    background: brown;
+    position: absolute;
+    top: 10px;
+    left: -8px;
+}
+.product-content div img{
+    width: 100%;
+    height: 100%;
+}
+.b-l{
+    border-left: 1px solid #ccc;
+}
+.b-r{
+    border-right: 1px solid #ccc;
+}
+.b-b{
+    border-bottom: 1px solid #ccc;
+}
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+/*为你推荐*/
+.jd-intro{
+    width: 100%;
+}
+.jd-intro .jd-intro-title{
+    margin-top: 30px;
+    width: 100%;
+    height: 1px;
+    background: #bbb;
+    position: relative;
+}
+.jd-intro-title p{
+    background: #f5f5f5;
+    width: 80px;
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    margin-left: -40px;
+    text-align: center;
+    font-size: 14px;
+}
+.jd-intro .jd-intro-content{
+    width: 100%;
+    margin-top: 30px;
+}
+.jd-intro-content ul{
+    width: 100%;
+}
+.jd-intro-content ul li{
+    margin-bottom: 10px;
+    width: 49%;
+    background: white;
+}
+.jd-intro-content ul li:nth-child(2n+1){
+    float: left;
+}
+.jd-intro-content ul li:nth-child(2n){
+    float: right;
+}
+.jd-intro-content img {
+    width: 100%;
+    height: 100%;
+}
+.jd-intro-content p{
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #bbbbbb;
+}
+.jd-intro-content ul li div{
+    margin: 12px 5px;
+}
+.jd-intro-content ul li div span:nth-child(1){
+    color: brown;
+}
+.jd-intro-content div span:nth-child(2){
+    width: 50px;
+    height: 25px;
+    border: 1px solid #bbbbbb;
+    text-align: center;
+    line-height: 25px;
+    float: right;
+}
+/*尾部*/
+.jd-tab {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 56px;
+    background: #fff;
+}
+
+.jd-tab ul {
+    width: 100%;
+    height: 100%;
+}
+
+.jd-tab ul li {
+    float: left;
+    width: 20%;
+    height: 100%;
+    text-align: center;
+}
+
+.jd-tab ul li img {
+    width: 80px;
+}
+
